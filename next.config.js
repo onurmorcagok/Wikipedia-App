@@ -1,4 +1,7 @@
-module.exports = {
+/**
+ * @type {import('next').NextConfig}
+ */
+const nextConfig = {
   css: {
     loaderOptions: {
       postcss: {
@@ -12,3 +15,5 @@ module.exports = {
     domains: ["upload.wikimedia.org"],
   },
 };
+
+module.exports = nextConfig;
